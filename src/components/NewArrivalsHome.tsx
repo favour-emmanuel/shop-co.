@@ -20,12 +20,13 @@ const NewArrivalsHome = () => {
           .slice(0, showAll ? newArrHomeItems.length : 4)
           .map((item, index) => (
             <div key={index} className="my-5">
-              <div className="bg-[#F0EEED] p-2 rounded-2xl flex justify-center">
+              <div className="bg-[#F0EEED] p-2 max-h-[18rem] rounded-2xl flex justify-center">
                 <img src={item.image} alt="" />
               </div>
               <div className="my-5">
-                <h2 className="font-bold  text-lg">{item.label}</h2>
+                <h2 className="font-bold text-lg">{item.label}</h2>
                 <div className="flex items-center gap-4 ">
+                  {/* star rating icon */}
                   <div className="flex items-center gap-2 text-[#FFC633]">
                     <Icon icon="ri:star-fill" />
                     <Icon icon="ri:star-fill" />
@@ -33,10 +34,10 @@ const NewArrivalsHome = () => {
                     <Icon icon="ri:star-fill" />
                     <Icon icon="mingcute:star-half-fill" />
                   </div>
-                  <p>{item.rating}</p>
+                  <p className="text-sm">{item.rating}</p>
                 </div>
-                <div className="flex items-center gap-3 my-1">
-                  <h2 className="text-xl font-extrabold">{item.price}</h2>
+                <div className="flex items-center gap-3 my-1.5">
+                  <h2 className="text-lg font-extrabold">{item.price}</h2>
                   {item.slashedPrice && (
                     <h2 className="text-lg font-bold text-black/40">
                       {item.slashedPrice}
@@ -57,7 +58,7 @@ const NewArrivalsHome = () => {
       {/* View all Button  */}
       <div
         onClick={handleViewAll}
-        className="flex justify-center items-center border max-w-[18rem] mx-auto border-black/10 py-3.5 px-4 rounded-full cursor-pointer"
+        className="flex justify-center items-center border w-full lg:max-w-[18rem] mx-auto border-black/10 py-3.5 px-4 rounded-full cursor-pointer"
       >
         <button className="text-lg font-medium text-black">View all</button>
       </div>

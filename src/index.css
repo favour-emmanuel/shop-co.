@@ -80,3 +80,7 @@
 body {
   @apply font-satoshi text-appBlack;
 }
+
+.sentenceCase {
+  text-transform: capitalize;
+}

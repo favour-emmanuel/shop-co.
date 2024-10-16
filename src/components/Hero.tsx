@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div>
-      <div className="w-full bg-appGray  lg:px-20 my-10 lg:py-10 py-[2.8rem] lg:pl-20 lg:pr-0 pl-10 pr-10 flex flex-col lg:flex-row justify-between relative">
+      <div className="w-full bg-appGray  lg:px-20 my-8 lg:py-10 py-[2.8rem] lg:pl-20 lg:pr-0 pl-10 pr-10 flex flex-col lg:flex-row justify-between relative">
         <div className="w-full max-w-[38rem]">
           <h1 className="lg:text-6xl text-5xl font-bold font-integral my-2">
             FIND CLOTHES THAT MATCHES YOUR STYLE

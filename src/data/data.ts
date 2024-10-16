@@ -3,6 +3,11 @@ import img2 from "../assets/ar-2.png";
 import img3 from "../assets/ar-3.png";
 import img4 from "../assets/ar-4.png";
 
+import newArrImg1 from "../assets/ts-1.png";
+import newArrImg2 from "../assets/ts-2.png";
+import newArrImg3 from "../assets/ts-3.png";
+import newArrImg4 from "../assets/ts4.png";
+
 export interface navMenus {
   label: string;
   route: string;
@@ -32,6 +37,8 @@ export const navItems: navMenus[] = [
   },
 ];
 
+// New arrival Home
+
 export interface newArrivalHome {
   image: string;
   label: string;
@@ -44,13 +51,13 @@ export interface newArrivalHome {
 export const newArrHomeItems: newArrivalHome[] = [
   {
     image: img1,
-    label: "T-SHIRT WITH TAPE DETAILS",
+    label: "T-shirt with tape details",
     rating: "4.5/5",
     price: "$120",
   },
   {
     image: img2,
-    label: "SKINNY FIT JEANS",
+    label: "Skinny fit jeans",
     rating: "3.5/5",
     price: "$240",
     slashedPrice: "$260",
@@ -58,13 +65,13 @@ export const newArrHomeItems: newArrivalHome[] = [
   },
   {
     image: img3,
-    label: "CHECKERED SHIRT",
+    label: "Checkered shirt",
     rating: "4.5/5",
     price: "$180",
   },
   {
     image: img4,
-    label: "SLEEVE STRIPED T-SHIRT",
+    label: "Sleeve striped T-shirt",
     rating: "5.5/5",
     price: "$130",
     slashedPrice: "$160",
@@ -72,16 +79,67 @@ export const newArrHomeItems: newArrivalHome[] = [
   },
   {
     image: img3,
-    label: "CHECKERED SHIRT",
+    label: "Checkered shirt",
     rating: "4.5/5",
     price: "$180",
   },
   {
     image: img4,
-    label: "SLEEVE STRIPED T-SHIRT",
+    label: "Sleeve striped T-shirt",
     rating: "5.5/5",
     price: "$130",
     slashedPrice: "$160",
     discount: "-30%",
+  },
+];
+
+// Top Selling
+export interface topSelling {
+  image: string;
+  label: string;
+  price: string;
+  rating: string;
+  slashedPrice?: string;
+  discount?: string;
+}
+
+export const topSellingItems: topSelling[] = [
+  {
+    image: newArrImg1,
+    label: "Vertical striped shirt",
+    price: "$212",
+    rating: "5.0/5",
+    slashedPrice: "$232",
+    discount: "-20%",
+  },
+  {
+    image: newArrImg2,
+    label: "Courage graphic T-shirt",
+    price: "$145",
+    rating: "4.0/5",
+  },
+  {
+    image: newArrImg3,
+    label: "Loose fit bermuda shorts",
+    price: "$80",
+    rating: "3.0/5",
+  },
+  {
+    image: newArrImg4,
+    label: "Faded skinny jeans",
+    price: "$210",
+    rating: "4.5/5",
+  },
+  {
+    image: newArrImg3,
+    label: "Loose fit bermuda shorts",
+    price: "$80",
+    rating: "3.0/5",
+  },
+  {
+    image: newArrImg4,
+    label: "Faded skinny jeans",
+    price: "$210",
+    rating: "4.5/5",
   },
 ];
