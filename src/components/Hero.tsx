@@ -62,12 +62,12 @@ const Hero = () => {
       {/* brand logos */}
       <div className="relative bg-red-200">
         <div className="absolute lg:bottom-11 bottom-0  w-full ">
-          <div className="bg-black py-5 lg:px-20 px-10 flex gap-x-10 gap-y-7 lg:flex-row flex-wrap justify-between items-center">
-            <img src={logo1} alt="" className="lg:max-w-[20rem] max-w-[8rem]" />
-            <img src={logo2} alt="" className="lg:max-w-[20rem] max-w-[8rem]" />
-            <img src={logo3} alt="" className="lg:max-w-[20rem] max-w-[8rem]" />
-            <img src={logo4} alt="" className="lg:max-w-[20rem] max-w-[8rem]" />
-            <img src={logo5} alt="" className="lg:max-w-[20rem] max-w-[8rem]" />
+          <div className="bg-black lg:py-5 py-3 lg:px-20 px-10 flex gap-x-10 gap-y-7 lg:flex-row flex-wrap justify-between items-center">
+            <img src={logo1} alt="" className="lg:max-w-[18rem] max-w-[8rem]" />
+            <img src={logo2} alt="" className="lg:max-w-[18rem] max-w-[8rem]" />
+            <img src={logo3} alt="" className="lg:max-w-[18rem] max-w-[8rem]" />
+            <img src={logo4} alt="" className="lg:max-w-[18rem] max-w-[8rem]" />
+            <img src={logo5} alt="" className="lg:max-w-[18rem] max-w-[8rem]" />
           </div>
         </div>
       </div>
