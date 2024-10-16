@@ -26,3 +26,10 @@ export const navItems: navMenus[] = [
     onclick: () => {},
   },
 ];
+
+export interface newArrivalHome {
+  image: string;
+  label: string;
+  price: string;
+  rating: string;
+}
