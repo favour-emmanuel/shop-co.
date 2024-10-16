@@ -7,6 +7,7 @@ import logo2 from "../assets/logo-2.svg";
 import logo3 from "../assets/logo-3.svg";
 import logo4 from "../assets/logo-4.svg";
 import logo5 from "../assets/logo-5.svg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -21,9 +22,11 @@ const Hero = () => {
             designed to bring out your individuality and cater to your sense of
             style.
           </p>
-          <button className="my-2 lg:py-[15px] py-4 px-3.5  w-full lg:max-w-[11rem] bg-black text-white rounded-full">
-            Shop Now
-          </button>
+          <Link to={"/shop"}>
+            <button className="my-2 lg:py-[15px] py-4 px-3.5  w-full lg:max-w-[11rem] bg-black text-white rounded-full">
+              Shop Now
+            </button>
+          </Link>
           <section className="flex items-center gap-10 my-7">
             <div className="border-r border-r-gray-400">
               <h2 className="font-bold lg:text-3xl text-2xl ">200+</h2>
@@ -62,12 +65,32 @@ const Hero = () => {
       {/* brand logos */}
       <div className="relative bg-red-200">
         <div className="absolute lg:bottom-11 bottom-0  w-full ">
-          <div className="bg-black lg:py-5 py-3 lg:px-20 px-10 flex gap-x-10 gap-y-7 lg:flex-row flex-wrap justify-between items-center">
-            <img src={logo1} alt="" className="lg:max-w-[18rem] max-w-[8rem]" />
-            <img src={logo2} alt="" className="lg:max-w-[18rem] max-w-[8rem]" />
-            <img src={logo3} alt="" className="lg:max-w-[18rem] max-w-[8rem]" />
-            <img src={logo4} alt="" className="lg:max-w-[18rem] max-w-[8rem]" />
-            <img src={logo5} alt="" className="lg:max-w-[18rem] max-w-[8rem]" />
+          <div className="bg-black lg:py-5 py-3.5 lg:px-20 px-10 flex gap-x-10 gap-y-7 lg:flex-row flex-wrap justify-between items-center">
+            <img
+              src={logo1}
+              alt=""
+              className="lg:max-w-[18rem] max-w-[7.8rem]"
+            />
+            <img
+              src={logo2}
+              alt=""
+              className="lg:max-w-[18rem] max-w-[7.8rem]"
+            />
+            <img
+              src={logo3}
+              alt=""
+              className="lg:max-w-[18rem] max-w-[7.8rem]"
+            />
+            <img
+              src={logo4}
+              alt=""
+              className="lg:max-w-[18rem] max-w-[7.8rem]"
+            />
+            <img
+              src={logo5}
+              alt=""
+              className="lg:max-w-[18rem] max-w-[7.8rem]"
+            />
           </div>
         </div>
       </div>

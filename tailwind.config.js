@@ -10,6 +10,7 @@ export default {
       colors: {
         appBlack: "#0d0d0d",
         appGray: "#F2F0F1",
+        appRed: "#FF3333",
       },
     },
   },

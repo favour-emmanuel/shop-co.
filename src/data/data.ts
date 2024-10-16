@@ -37,6 +37,8 @@ export interface newArrivalHome {
   label: string;
   price: string;
   rating: string;
+  slashedPrice?: string;
+  discount?: string;
 }
 
 export const newArrHomeItems: newArrivalHome[] = [
@@ -51,6 +53,8 @@ export const newArrHomeItems: newArrivalHome[] = [
     label: "SKINNY FIT JEANS",
     rating: "3.5/5",
     price: "$240",
+    slashedPrice: "$260",
+    discount: "-20%",
   },
   {
     image: img3,
@@ -63,5 +67,21 @@ export const newArrHomeItems: newArrivalHome[] = [
     label: "SLEEVE STRIPED T-SHIRT",
     rating: "5.5/5",
     price: "$130",
+    slashedPrice: "$160",
+    discount: "-30%",
+  },
+  {
+    image: img3,
+    label: "CHECKERED SHIRT",
+    rating: "4.5/5",
+    price: "$180",
+  },
+  {
+    image: img4,
+    label: "SLEEVE STRIPED T-SHIRT",
+    rating: "5.5/5",
+    price: "$130",
+    slashedPrice: "$160",
+    discount: "-30%",
   },
 ];

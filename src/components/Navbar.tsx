@@ -13,7 +13,7 @@ const Navbar = () => {
           <Icon icon="icon-park:hamburger-button" className="text-2xl" />
         </span>
         <Link to={"/"}>
-          <h1 className="font-integral font-bold lg:mr-3 lg:text-2xl md:text-xl text-lg">
+          <h1 className="font-integral font-bold  lg:text-2xl md:text-xl text-lg">
             Shop.co
           </h1>
         </Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
           className={
             nav
               ? "fixed left-0 top-0 mx-0 lg:hidden w-full max-w-[30rem] bg-black h-screen z-[999] duration-300 px-10 py-8"
-              : "fixed left-[-100%] top-0 h-full -z-10"
+              : "fixed left-[-100%] top-0 h-full -z-10 duration-300"
           }
         >
           <div className="flex items-center justify-between text-white">
