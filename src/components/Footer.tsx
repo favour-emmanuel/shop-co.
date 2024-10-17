@@ -37,7 +37,7 @@ const Footer = () => {
       <NewsletterSection />
       {/* Main Footer */}
       <div className="relative lg:px-20 px-10 lg:py-20 py-8 bg-[#f0f0f0] text-black/60">
-        <div className="flex flex-col lg:flex-row lg:gap-[7.8rem] my-5">
+        <div className="flex flex-col lg:flex-row lg:gap-[7.8rem] lg:my-12 my-5">
           <div className="w-full lg:max-w-[18rem] lg:mt-0 mt-14">
             <Link to={"/"}>
               <h1 className="font-integral font-bold text-black lg:text-[1.6rem] text-xl lg:mt-0 mt-20">
@@ -50,7 +50,7 @@ const Footer = () => {
               wear. From women to men.
             </p>
             {/* social icons */}
-            <div className="flex items-center gap-3 my-3 lg:mb-0 mb-8">
+            <div className="flex items-center gap-3 lg:my-8 my-3 lg:mb-0 mb-8">
               <Icon
                 icon="mdi:twitter"
                 className="text-[1.4rem] cursor-pointer hover:text-black/70 hover:duration-300 text-black"
@@ -82,7 +82,7 @@ const Footer = () => {
                   {item.links.map((link, index) => (
                     <li
                       key={index}
-                      className="text-sm lg:text-balance hover:underline hover:duration-300 hover:ease-in-out hover:text-black/80 cursor-pointer"
+                      className="text-sm lg:text-base lg:text-balance hover:underline hover:duration-300 hover:ease-in-out hover:text-black/80 cursor-pointer"
                     >
                       {link}
                     </li>

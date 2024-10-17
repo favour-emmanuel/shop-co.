@@ -32,7 +32,7 @@ const CustomerReview: React.FC = () => {
   };
 
   return (
-    <div className="relative lg:my-10 my-8 lg:pl-20 pl-10">
+    <div className="relative lg:my-24 my-8 lg:pl-20 pl-10">
       <div className="flex justify-between items-center">
         <h1 className="lg:text-3xl text-2xl font-bold font-integral">
           OUR HAPPY CUSTOMERS
