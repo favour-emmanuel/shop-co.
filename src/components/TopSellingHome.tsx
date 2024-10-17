@@ -10,7 +10,7 @@ const TopSellingHome = () => {
   };
 
   return (
-    <div className="lg:my-24 my-20 max-w-[1240px] lg:mx-auto mx-8 border-t border-t-black/10 lg:py-16">
+    <div className="lg:my-24 my-20 lg:px-20 px-10 lg:mx-auto mx-8 border-t border-t-black/10 lg:py-16">
       <h1 className="text-center font-bold font-integral text-3xl ">
         Top Selling
       </h1>

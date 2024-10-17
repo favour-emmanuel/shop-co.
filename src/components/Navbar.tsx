@@ -53,13 +53,13 @@ const Navbar = () => {
       {/* desktop UL */}
       <ul className="lg:flex hidden items-center gap-8">
         {navItems.map((menu, index) => (
-          <Link to={menu.route} key={index} className="text-base">
+          <Link to={menu.route} key={index} className="text-[17px]">
             {menu.label}
           </Link>
         ))}
       </ul>
       {/* search input */}
-      <div className="lg:flex hidden items-center gap-3 bg-appGray py-3 px-4 w-full rounded-full max-w-[32rem]">
+      <div className="lg:flex hidden items-center gap-3 bg-appGray py-3.5 px-4 w-full rounded-full max-w-[38rem]">
         <Icon icon="iconamoon:search-light" className="text-xl" />
         <input
           type="search"
@@ -71,10 +71,10 @@ const Navbar = () => {
       <div className="flex gap-5 items-center">
         <Icon
           icon="iconamoon:search-light"
-          className="text-xl md:hidden cursor-pointer"
+          className="text-2xl md:hidden cursor-pointer"
         />
-        <Icon icon="bi:cart" className="text-xl cursor-pointer" />
-        <Icon icon="codicon:account" className="text-xl cursor-pointer" />
+        <Icon icon="bi:cart" className="text-2xl cursor-pointer" />
+        <Icon icon="codicon:account" className="text-2xl cursor-pointer" />
       </div>
     </nav>
   );
