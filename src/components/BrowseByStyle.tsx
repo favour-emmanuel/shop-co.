@@ -1,4 +1,3 @@
-import React from "react";
 import { dressStyleItem } from "../data/data";
 
 const BrowseByStyle = () => {
