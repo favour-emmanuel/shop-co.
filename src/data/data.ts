@@ -155,6 +155,7 @@ export interface dressStyle {
   img: string;
   label: string;
 }
+
 export const dressStyleItem: dressStyle[] = [
   { img: dress1, label: "Casual" },
   {
@@ -163,7 +164,7 @@ export const dressStyleItem: dressStyle[] = [
   },
   {
     img: dress3,
-    label: "Part",
+    label: "Party",
   },
   {
     img: dress4,

@@ -10,7 +10,7 @@ const NewArrivalsHome = () => {
   };
 
   return (
-    <div className="lg:my-20 my-24 lg:mx-auto mx-8 lg:px-20 px-10">
+    <div className="lg:my-20 my-24 lg:mx-auto lg:px-20 px-10">
       <h1 className="text-center lg:mt-0 mt-10 font-bold font-integral text-3xl ">
         New Arrivals
       </h1>

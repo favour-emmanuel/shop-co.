@@ -22,13 +22,13 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 mx-0 lg:hidden w-full max-w-[30rem] bg-black h-screen z-[999] duration-300 px-10 py-8"
+              ? "fixed left-0 top-0 mx-0 lg:hidden w-full max-w-[37rem] bg-black h-screen z-[999] duration-300 px-10 py-8"
               : "fixed left-[-100%] top-0 h-full -z-10 duration-300"
           }
         >
           <div className="flex items-center justify-between text-white">
             <Link to={"/"}>
-              <h1 className="font-integral font-bold lg:mr-3 lg:text-2xl md:text-xl text-lg">
+              <h1 className="font-integral font-bold lg:mr-3 lg:text-[1.8rem] md:text-xl text-lg">
                 Shop.co
               </h1>
             </Link>
@@ -53,13 +53,13 @@ const Navbar = () => {
       {/* desktop UL */}
       <ul className="lg:flex hidden items-center gap-8">
         {navItems.map((menu, index) => (
-          <Link to={menu.route} key={index} className="text-[17px]">
+          <Link to={menu.route} key={index} className="text-[15.6px]">
             {menu.label}
           </Link>
         ))}
       </ul>
       {/* search input */}
-      <div className="lg:flex hidden items-center gap-3 bg-appGray py-3.5 px-4 w-full rounded-full max-w-[38rem]">
+      <div className="lg:flex hidden items-center gap-3 bg-appGray py-3 px-4 w-full rounded-full max-w-[30rem]">
         <Icon icon="iconamoon:search-light" className="text-xl" />
         <input
           type="search"
@@ -71,10 +71,10 @@ const Navbar = () => {
       <div className="flex gap-5 items-center">
         <Icon
           icon="iconamoon:search-light"
-          className="text-2xl md:hidden cursor-pointer"
+          className="text-[22px] md:hidden cursor-pointer"
         />
-        <Icon icon="bi:cart" className="text-2xl cursor-pointer" />
-        <Icon icon="codicon:account" className="text-2xl cursor-pointer" />
+        <Icon icon="bi:cart" className="text-[22px] cursor-pointer" />
+        <Icon icon="codicon:account" className="text-[22px] cursor-pointer" />
       </div>
     </nav>
   );

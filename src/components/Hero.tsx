@@ -27,7 +27,7 @@ const Hero = () => {
               Shop Now
             </button>
           </Link>
-          <section className="flex items-center gap-10 my-7">
+          <section className="flex items-center gap-10 mt-10 mb-24">
             <div className="border-r border-r-gray-400">
               <h2 className="font-bold lg:text-3xl text-2xl ">200+</h2>
               <p className="text-base mr-5">International Brands</p>
@@ -46,7 +46,7 @@ const Hero = () => {
           <img
             src={vector1}
             alt=""
-            className="absolute z-10 lg:top-[9.8rem] lg:right-[38rem] bottom-[18rem]"
+            className="absolute z-10 lg:top-[10.8rem] lg:right-[30rem] bottom-[18rem]"
           />
           <img
             src={vector2}
@@ -63,9 +63,9 @@ const Hero = () => {
         </div>
       </div>
       {/* brand logos */}
-      <div className="relative bg-red-200">
-        <div className="absolute lg:bottom-11 bottom-0  w-full ">
-          <div className="bg-black lg:py-5 py-3.5 lg:px-20 px-10 flex gap-x-10 gap-y-7 lg:flex-row flex-wrap justify-between items-center">
+      <div className="relative">
+        <div className="absolute lg:bottom-8 bottom-0  w-full ">
+          <div className="bg-black lg:py-7 py-3.5 lg:px-20 px-10 flex gap-x-10 gap-y-7 lg:flex-row flex-wrap justify-between items-center">
             <img
               src={logo1}
               alt=""
