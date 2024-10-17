@@ -7,7 +7,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <nav className="w-full lg:px-0 px-10 max-w-[1240px] mx-auto flex justify-between lg:items-center my-6">
+    <nav className="w-full lg:px-20 px-10  mx-auto flex justify-between lg:items-center my-6">
       <div className="flex gap-3 items-center">
         <span className="lg:hidden cursor-pointer" onClick={() => setNav(!nav)}>
           <Icon icon="icon-park:hamburger-button" className="text-2xl" />

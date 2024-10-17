@@ -8,6 +8,11 @@ import newArrImg2 from "../assets/ts-2.png";
 import newArrImg3 from "../assets/ts-3.png";
 import newArrImg4 from "../assets/ts4.png";
 
+import dress1 from "../assets/casual.png";
+import dress2 from "../assets/formal.png";
+import dress3 from "../assets/party.png";
+import dress4 from "../assets/gym.png";
+
 export interface navMenus {
   label: string;
   route: string;
@@ -141,5 +146,27 @@ export const topSellingItems: topSelling[] = [
     label: "Faded skinny jeans",
     price: "$210",
     rating: "4.5/5",
+  },
+];
+
+// browse by dress style
+
+export interface dressStyle {
+  img: string;
+  label: string;
+}
+export const dressStyleItem: dressStyle[] = [
+  { img: dress1, label: "Casual" },
+  {
+    img: dress2,
+    label: "Formal",
+  },
+  {
+    img: dress3,
+    label: "Part",
+  },
+  {
+    img: dress4,
+    label: "Gym",
   },
 ];
