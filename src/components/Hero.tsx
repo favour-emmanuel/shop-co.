@@ -29,20 +29,16 @@ const Hero = () => {
           </Link>
           <section className="flex items-center gap-10 mt-10 mb-24">
             <div className="border-r border-r-gray-400">
-              <h2 className="font-bold lg:text-3xl tmd:ext-2xl text-lg">
+              <h2 className="font-bold lg:text-3xl md:text-2xl text-lg">
                 200+
               </h2>
-              <p className="lg:text-base text-sm lg:pr-5 pr-3">
-                International Brands
-              </p>
+              <p className="lg:text-base text-sm pr-5">International Brands</p>
             </div>
             <div className="border-r border-r-gray-400">
               <h2 className="font-bold lg:text-3xl md:text-2xl text-lg">
                 2,000+
               </h2>
-              <p className="lg:text-base text-sm lg:pr-5 pr-3">
-                High-Quality Products
-              </p>
+              <p className="lg:text-base text-sm pr-5">High-Quality Products</p>
             </div>
             <div>
               <h2 className="font-bold lg:text-3xl md:text-2xl text-lg">

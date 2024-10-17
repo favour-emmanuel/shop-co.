@@ -171,3 +171,67 @@ export const dressStyleItem: dressStyle[] = [
     label: "Gym",
   },
 ];
+
+export interface customerReview {
+  title: string;
+  text: string;
+}
+
+export const customerReviewItem: customerReview[] = [
+  {
+    title: "Sarah M.",
+    text: " I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.  ",
+  },
+  {
+    title: "Mary U.",
+    text: " I'm marveled away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.  ",
+  },
+
+  {
+    title: "Alex K.",
+    text: "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”",
+  },
+
+  {
+    title: "James L.",
+    text: "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”",
+  },
+  {
+    title: "Mooen .T",
+    text: "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”",
+  },
+  {
+    title: "Mooen .T",
+    text: "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”",
+  },
+];
+
+export const footerLinks = [
+  {
+    title: "Company",
+    links: ["About", "Features", "Works", "Career"],
+  },
+  {
+    title: "Help",
+    links: [
+      "Customer Support",
+      "Delivery Details",
+      "Terms & Conditions",
+      "Privacy Policy",
+    ],
+  },
+  {
+    title: "FAQ",
+    links: ["Account", "Manage Deliveries", "Orders", "Payments"],
+  },
+
+  {
+    title: "Resources",
+    links: [
+      "Free eBooks",
+      "Development Tutorial",
+      "How to - Blog",
+      "Youtbe Playlist",
+    ],
+  },
+];

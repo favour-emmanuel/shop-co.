@@ -19,10 +19,11 @@ const Navbar = () => {
         </Link>
 
         {/* mobile menu */}
+
         <div
           className={
             nav
-              ? "fixed left-0 top-0 mx-0 lg:hidden w-full max-w-[37rem] bg-black h-screen z-[999] duration-300 px-10 py-8"
+              ? "fixed left-0 top-0 mx-0 lg:hidden w-full max-w-[28rem] bg-black h-screen z-[999] duration-300 px-10 py-8"
               : "fixed left-[-100%] top-0 h-full -z-10 duration-300"
           }
         >
