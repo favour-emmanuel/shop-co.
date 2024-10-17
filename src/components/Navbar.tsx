@@ -13,7 +13,7 @@ const Navbar = () => {
           <Icon icon="icon-park:hamburger-button" className="text-2xl" />
         </span>
         <Link to={"/"}>
-          <h1 className="font-integral font-bold  lg:text-2xl md:text-xl text-lg">
+          <h1 className="font-integral font-bold  lg:text-xl text-lg ">
             Shop.co
           </h1>
         </Link>
@@ -71,10 +71,16 @@ const Navbar = () => {
       <div className="flex gap-5 items-center">
         <Icon
           icon="iconamoon:search-light"
-          className="text-[22px] md:hidden cursor-pointer"
+          className="lg:text-[21px] text-lg md:hidden cursor-pointer"
         />
-        <Icon icon="bi:cart" className="text-[22px] cursor-pointer" />
-        <Icon icon="codicon:account" className="text-[22px] cursor-pointer" />
+        <Icon
+          icon="bi:cart"
+          className="lg:text-[21px] text-lg cursor-pointer"
+        />
+        <Icon
+          icon="codicon:account"
+          className="lg:text-[21px] text-lg cursor-pointer"
+        />
       </div>
     </nav>
   );
