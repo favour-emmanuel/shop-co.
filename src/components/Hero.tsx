@@ -29,16 +29,26 @@ const Hero = () => {
           </Link>
           <section className="flex items-center gap-10 mt-10 mb-24">
             <div className="border-r border-r-gray-400">
-              <h2 className="font-bold lg:text-3xl text-2xl ">200+</h2>
-              <p className="text-base mr-5">International Brands</p>
+              <h2 className="font-bold lg:text-3xl tmd:ext-2xl text-lg">
+                200+
+              </h2>
+              <p className="lg:text-base text-sm lg:pr-5 pr-3">
+                International Brands
+              </p>
             </div>
             <div className="border-r border-r-gray-400">
-              <h2 className="font-bold lg:text-3xl text-2xl">2,000+</h2>
-              <p className="text-base mr-5">High-Quality Products</p>
+              <h2 className="font-bold lg:text-3xl md:text-2xl text-lg">
+                2,000+
+              </h2>
+              <p className="lg:text-base text-sm lg:pr-5 pr-3">
+                High-Quality Products
+              </p>
             </div>
             <div>
-              <h2 className="font-bold lg:text-3xl text-2xl">30,000+</h2>
-              <p className="text-base">Happy Customers</p>
+              <h2 className="font-bold lg:text-3xl md:text-2xl text-lg">
+                30,000+
+              </h2>
+              <p className="lg:text-base text-sm">Happy Customers</p>
             </div>
           </section>
         </div>
@@ -65,7 +75,7 @@ const Hero = () => {
       {/* brand logos */}
       <div className="relative">
         <div className="absolute lg:bottom-8 bottom-0  w-full ">
-          <div className="bg-black lg:py-7 py-3.5 lg:px-20 px-10 flex gap-x-10 gap-y-7 lg:flex-row flex-wrap justify-between items-center">
+          <div className="bg-black lg:py-7 py-3.5 lg:px-20 px-10 lg:gap-x-10 gap-x-14 gap-y-7 grid lg:grid-cols-5 md:grid-cols-4 grid-cols-3 justify-center place-items-center">
             <img
               src={logo1}
               alt=""
